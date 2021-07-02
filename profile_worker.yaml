@@ -1,0 +1,36 @@
+      - View: #account name
+          style:
+            flexDirection: row
+            justifyContent: center
+            backgroundColor: {bgdc}
+            height: 80
+            width: 400
+            marginTop: 10
+          children:
+            - Text:
+                index: 1480
+                style:
+                  fontWeight: bold
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 22
+                  marginTop: 30      
+      - Button: #order
+          id: orders
+          style:
+            backgroundColor: {bgdc}
+            height: 50
+            width: 100%
+            marginTop: 10
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Text:
+                index: 300
+                style:
+                  color: {tc}
+                  fontFamily: Gurmukhi MN
+                  fontSize: 18
+                  marginTop: 15
+                  marginLeft: 10%
+

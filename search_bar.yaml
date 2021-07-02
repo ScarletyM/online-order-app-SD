@@ -1,0 +1,15 @@
+      - TextInput: #search bar
+          id: search
+          index: 1400
+          len: 80
+          style:
+            width: 80%
+            height: 30
+            fontSize: 15
+            color: "#888888"
+            backgroundColor: "#E4E4E4"
+            borderColor: black
+            borderRadius: 15
+            borderWidth: 1
+            marginTop: 20
+            marginLeft: 10%

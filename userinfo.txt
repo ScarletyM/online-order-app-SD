@@ -1,0 +1,40 @@
+wang31
+123456
+111111
+thorson
+cash
+1111111
+50
+2020-05-18.10:31:11
+13
+52.1254
+3
+Chicken Tenders
+29.90
+10
+BBQ Pizza
+17.98
+2
+Snickerdoodle
+0.89
+1
+Write down your comments here (199 characters at most)
+EOO
+2020-05-18.10:34:22
+10
+106.773
+1
+Sausage Pizza
+99.90
+10
+Write down your comments here (199 characters at most)
+EOO
+2020-05-18.10:34:22
+10
+106.773
+1
+Sausage Pizza
+99.90
+10
+Write down your comments here (199 characters at most)
+EOO

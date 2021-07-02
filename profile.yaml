@@ -1,0 +1,71 @@
+      - View: #account name
+          style:
+            flexDirection: row
+            justifyContent: center
+            backgroundColor: {bgdc}
+            height: 80
+            width: 400
+            marginTop: 10
+          children:
+            - Text:
+                index: 720
+                style:
+                  fontWeight: bold
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 22
+                  marginTop: 30      
+      - Button: #order history
+          id: order_history
+          style:
+            backgroundColor: {bgdc}
+            height: 50
+            width: 100%
+            marginTop: 10
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Text:
+                index: 300
+                style:
+                  color: {tc}
+                  fontFamily: Gurmukhi MN
+                  fontSize: 18
+                  marginTop: 15
+                  marginLeft: 10%
+      - Button: #box
+          id: default_delivery
+          style:
+            backgroundColor: {bgdc}
+            height: 50
+            width: 100%
+            marginTop: 1
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Text: #default_delivery
+                index: 170
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 18
+                  marginTop: 15
+                  marginLeft: 10%
+      - Button: #box
+          id: auto_warning
+          style:
+            backgroundColor: {bgdc}
+            height: 50
+            width: 100%
+            marginTop: 1
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Text: #auto warning
+                index: 210
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 18
+                  marginTop: 15
+                  marginLeft: 10%

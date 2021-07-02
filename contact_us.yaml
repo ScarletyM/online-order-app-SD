@@ -1,0 +1,41 @@
+      - View: #contact us
+          style:
+            flexDirection: column
+            justifyContent: center
+            backgroundColor: {bgdc}
+            height: 250
+            width: 400
+            marginTop: 30
+          children:  
+            - Text: #phone num
+                index: 992
+                style:
+                  fontWeight: bold
+                  color: {tc}
+                  fontSize: 22
+                  marginTop: 10 
+                  marginLeft: 30      
+            - Text: #num
+                index: 1400
+                style:
+                  fontWeight: bold
+                  color: {tc}
+                  fontSize: 22
+                  marginTop: 15    
+                  marginLeft: 30               
+            - Text: #email
+                index: 1390
+                style:
+                  fontWeight: bold
+                  color: {tc}
+                  fontSize: 22
+                  marginTop: 30    
+                  marginLeft: 30   
+            - Text: #email add
+                index: 1415
+                style:
+                  fontWeight: bold
+                  color: {tc}
+                  fontSize: 22
+                  marginTop: 15 
+                  marginLeft: 30      

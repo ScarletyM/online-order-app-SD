@@ -1,0 +1,115 @@
+      - Text: #SUMMARY
+          index: 430
+          style:
+            fontWeight: bold
+            fontFamily: Gurmukhi MN
+            color: {tc}
+            fontSize: 22
+            marginTop: 10
+      - View: #summary box
+          style:
+            backgroundColor: {bgdc}
+            borderColor: {boc}
+            width: 300
+            height: 105
+            borderWidth: 1
+            marginTop: 20
+          children:
+                - Text: # subtotal
+                    index: 440
+                    style:
+                      color: {tc}
+                      fontSize: 17
+                      marginTop: 5
+                      marginLeft: 15
+                - Text: # subtotal
+                    index: 9500
+                    style:
+                      color: {tc}
+                      fontSize: 17
+                      marginTop: -20
+                      marginLeft: 235
+                - Text: # SHIPPING
+                    index: 450
+                    style:
+                      color: {tc}
+                      fontSize: 17
+                      marginTop: 5
+                      marginLeft: 15
+                - Text: # SHIPPING
+                    index: 9550
+                    style:
+                      color: {tc}
+                      fontSize: 17
+                      marginTop: -20
+                      marginLeft: 235
+                - Text: # TAX
+                    index: 460
+                    style:
+                      color: {tc}
+                      fontSize: 17
+                      marginTop: 5
+                      marginLeft: 15
+                - Text: # TAX
+                    index: 9600
+                    style:
+                      color: {tc}
+                      fontSize: 17
+                      marginTop: -20
+                      marginLeft: 235
+                - Text: # TOTAL
+                    index: 480
+                    style:
+                      color: {tc}
+                      fontSize: 17
+                      marginTop: 5
+                      marginLeft: 15
+                - Text: # TOTAL
+                    index: 9650
+                    style:
+                      color: {tc}
+                      fontSize: 17
+                      marginTop: -20
+                      marginLeft: 235
+                - Text: # Comments
+                    index: 520
+                    style:
+                      fontWeight: bold
+                      fontFamily: Gurmukhi MN
+                      color: {tc}
+                      fontSize: 22
+                      marginTop: 20
+                - TextInput: #comments
+                    id: comment
+                    index: 1500
+                    len: 150
+                    style:
+                      width: 100%
+                      height: 100
+                      fontSize: 15
+                      color: "#888888"
+                      backgroundColor: {bgdc}
+                      borderColor: {boc}
+                      borderWidth: 1
+                      marginTop: 10
+                      marginLeft: 0
+                - Button:
+                    id: place_order
+                    style: # box
+                      width: 250
+                      height: 40
+                      alignItems: center
+                      backgroundColor: {bgdc}
+                      borderWidth: 1
+                      borderColor: {boc}
+                      marginLeft: 25
+                      marginTop: 30
+                    on_touch:
+                      backgroundColor: rgb(255, 200, 0)
+                    children: #place order
+                      - Text:
+                          index: 500
+                          style:
+                            color: {tc}
+                            fontSize: 17
+                            marginTop: 10

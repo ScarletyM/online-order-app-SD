@@ -1,0 +1,73 @@
+- View: #Title bgd
+    style:
+      flexDirection: column
+      justifyContent: center
+      alignItems: center
+      backgroundColor: {bgdtc}
+      height: 100
+      width: 100%
+    children:
+      - Text: # Title text
+          index: 5
+          style:
+            fontFamily: Gurmukhi MN
+            fontWeight: bold
+            color: {tc}
+            fontSize: 35
+            marginTop: 35
+      - Image: # image
+          source: "alpaca.png"
+          style:
+            width: 34
+            height: 34
+            marginTop: -5
+            marginLeft: 0
+      - Image: # image
+          source: "alpaca.png"
+          style:
+            width: 34
+            height: 34
+            marginTop: -34
+            marginLeft: -30%
+      - Image: # image
+          source: "alpaca.png"
+          style:
+            width: 34
+            height: 34
+            marginTop: -34
+            marginLeft: 30%
+      - Image: # image
+          source: "alpaca.png"
+          style:
+            width: 34
+            height: 34
+            marginTop: -34
+            marginLeft: -60%
+      - Image: # image
+          source: "alpaca.png"
+          style:
+            width: 34
+            height: 34
+            marginTop: -34
+            marginLeft: 60%
+      - Image: # image
+          source: "alpaca.png"
+          style:
+            width: 34
+            height: 34
+            marginTop: -34
+            marginLeft: -90%
+      - Image: # image
+          source: "alpaca.png"
+          style:
+            width: 34
+            height: 34
+            marginTop: -34
+            marginLeft: 90%
+- ScrollView:
+    style:
+      width: 100%
+      backgroundColor: {svc}
+      justifyContent: center
+      flexDirection: row
+    children:

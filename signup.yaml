@@ -1,0 +1,97 @@
+      - Image: # logo
+          source: "alpaca.png"
+          style:
+            width: 170
+            height: 170
+            marginTop: 70
+            marginLeft: 40
+      - Text: # username
+          index: 350
+          style:
+            fontFamily: Gurmukhi MN
+            fontWeight: bold
+            color: {tc}
+            fontSize: 25
+            marginTop: 35
+      - TextInput: #username input
+          id: create_name
+          index: 620
+          len: 18
+          style:
+            width: 250
+            height: 30
+            fontSize: 15
+            color: "#888888"
+            backgroundColor: {bgdc}
+            borderColor: {boc}
+            borderRadius: 15
+            borderWidth: 1
+            marginTop: 10
+          on_focus: 
+            backgroundColor: "#888888"
+      - Text: # password
+          index: 370
+          style:
+            fontFamily: Gurmukhi MN
+            fontWeight: bold
+            color: {tc}
+            fontSize: 25
+            marginTop: 35
+      - TextInput: #passwordinput
+          id: create_pw
+          index: 640
+          len: 18
+          style:
+            width: 250
+            height: 30
+            fontSize: 15
+            color: "#888888"
+            backgroundColor: {bgdc}
+            borderColor: {boc}
+            borderRadius: 15
+            borderWidth: 1
+            marginTop: 10
+          extra_props:
+            secureTextEntry: true
+      - Text: # id
+          index: 410
+          style:
+            fontFamily: Gurmukhi MN
+            fontWeight: bold
+            color: {tc}
+            fontSize: 25
+            marginTop: 35
+      - TextInput: #id
+          id: create_id
+          index: 660
+          len: 18
+          style:
+            width: 250
+            height: 30
+            fontSize: 15
+            color: "#888888"
+            backgroundColor: {bgdc}
+            borderColor: {boc}
+            borderRadius: 15
+            borderWidth: 1
+            marginTop: 10
+      - Button:
+          id: create
+          style: # box
+            width: 100
+            height: 40
+            alignItems: center
+            backgroundColor: "#c9abbc"
+            borderRadius: 10
+            marginTop: 20
+            marginLeft: 70
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children: #sign_up
+            - Text:
+                index: 390
+                style:
+                  color: black
+                  fontFamily: Gurmukhi MN
+                  fontSize: 17
+                  marginTop: 7

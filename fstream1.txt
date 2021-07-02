@@ -1,0 +1,49 @@
+Snacks
+Chicken Tenders
+300 calories
+$2.99
+Snacks
+Cheesy Bread
+400 calories
+$2.00
+Snacks
+Quesadilla
+850 calories
+$6.50
+Pizza
+Cheese Pizza
+900 Calories
+$7.50
+Pizza
+Sausage Pizza
+1200 calories
+$9.99
+Pizza
+Pepperoni Pizza
+1100 calories
+$8.99
+Drinks
+Oreo Shake
+400 calories
+$3.99
+Drinks
+Mint Shake
+400 calories
+$2.49
+Drinks
+Chocolate Shake
+300 calories
+$2.49
+Sweets
+Chocolate Chip Cookie
+170 calories
+$0.99
+Sweets
+Snickerdoodle
+160 calories
+$0.89
+Sweets
+Oatmeal Raisin Cookie
+140 calories
+$1.19
+EOF

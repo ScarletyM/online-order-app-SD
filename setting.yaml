@@ -1,0 +1,76 @@
+      - Text: #settings
+          index: 100
+          style:
+            fontWeight: bold
+            color: {tc}
+            fontFamily: Gurmukhi MN
+            fontSize: 22
+            marginTop: 15
+            marginLeft: 30
+      - Button: #box
+          id: night_mode
+          style:
+            backgroundColor: {bc}
+            height: 10%
+            width: 400
+            marginTop: 20
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Text: # night mode
+                index: 120
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 22
+                  marginTop: 15
+                  marginLeft: 30
+            - Text: 
+                index: {nightmode_index}
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 22
+                  marginTop: -30
+                  marginLeft: 330
+      - Button: #box
+          id: contact_us
+          style:
+            backgroundColor: {bc}
+            height: 10%
+            width: 100%
+            marginTop: 1
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Text: #contact us
+                index: 155
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 22
+                  marginTop: 15
+                  marginLeft: 30
+      - View: #box
+          style:
+            backgroundColor: {bc}
+            height: 10%
+            width: 100%
+            marginTop: 1
+          children:
+            - Text: # version
+                index: 135
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 22
+                  marginTop: 15
+                  marginLeft: 30
+            - Text: 
+                index: 147
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 22
+                  marginTop: -30
+                  marginLeft: 330

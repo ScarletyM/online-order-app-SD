@@ -1,0 +1,9 @@
+      - Text: #cart
+          index: 600
+          style:
+            fontWeight: bold
+            color: {tc}
+            fontFamily: Gurmukhi MN
+            fontSize: 22
+            marginTop: 10
+

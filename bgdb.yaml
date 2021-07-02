@@ -1,0 +1,68 @@
+- View: #bottom bgd
+    style:
+      flexDirection: row
+      justifyContent: space-evenly
+      backgroundColor: white
+      height: 80
+      width: 100%
+    children:
+      - Button: #home
+          id: p1
+          style:
+            width: 54
+            height: 54
+            backgroundColor: white
+            marginTop: 10
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Image: 
+                source: home.png
+                style:
+                  width: 54
+                  height: 54
+      - Button: #setting
+          id: p2
+          style:
+            width: 54
+            height: 54
+            backgroundColor: white
+            marginTop: 10
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Image: 
+                source: setting.png
+                style:
+                  width: 54
+                  height: 54
+      - Button: #cart
+          id: p3
+          style:
+            width: 54
+            height: 54
+            backgroundColor: white
+            marginTop: 10
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Image: 
+                source: cart.png
+                style:
+                  width: 54
+                  height: 54
+      - Button: #profile
+          id: p4
+          style:
+            width: 54
+            height: 54
+            backgroundColor: white
+            marginTop: 10
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Image: 
+                source: profile.png
+                style:
+                  width: 54
+                  height: 54

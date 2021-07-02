@@ -1,0 +1,83 @@
+
+      - Button:
+          id: p5
+          style:
+            width: 150
+            height: 180
+            alignItems: center
+            borderRadius: 10
+            borderWidth: 5
+            borderColor: rgb(100, 100, 100)
+            backgroundColor: "#baccbc"
+            marginTop: 30
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Text:
+                style:
+                  fontSize: 25
+                  fontFamily: Gurmukhi MN
+                  marginTop: 45%
+                index: 30
+      - Button:
+          id: p6
+          style:
+            width: 150
+            height: 180
+            alignItems: center
+            borderRadius: 10
+            borderWidth: 5
+            borderColor: rgb(100, 100, 100)
+            backgroundColor: "#beb5d6"
+            marginLeft: 160
+            marginTop: -180
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Text:
+                style:
+                  fontSize: 25
+                  fontFamily: Gurmukhi MN
+                  marginTop: 45%
+                index: 40
+      - Button:
+          id: p7
+          style:
+            width: 150
+            height: 180
+            alignItems: center
+            borderRadius: 10
+            borderWidth: 5
+            borderColor: rgb(100, 100, 100)
+            backgroundColor: "#eb9694"
+            marginTop: 30
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Text:
+                style:
+                  fontSize: 25
+                  fontFamily: Gurmukhi MN
+                  marginTop: 45%
+                index: 60
+      - Button:
+          id: p8
+          style:
+            width: 150
+            height: 180
+            alignItems: center
+            borderRadius: 10
+            borderWidth: 5
+            borderColor: rgb(100, 100, 100)
+            backgroundColor: "#fff2b4"
+            marginLeft: 160
+            marginTop: -180
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Text:
+                style:
+                  fontSize: 25
+                  fontFamily: Gurmukhi MN
+                  marginTop: 45%
+                index: 50

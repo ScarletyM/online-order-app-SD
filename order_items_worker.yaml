@@ -1,0 +1,78 @@
+      - Button: #box
+          id: workerorder{ordernum}
+          style:
+            backgroundColor: {bgdc}
+            height: 25%
+            width: 450
+            marginTop: 1
+          on_touch:
+            backgroundColor: rgb(255, 200, 0)
+          children:
+            - Text: # order time
+                index: 1215
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 25
+                  marginTop: 15
+                  marginLeft: 30
+            - Text: # time
+                index: {time_index}
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 25
+                  marginTop: -36
+                  marginLeft: 200
+            - Text: # delivery
+                index: {delivery_index}
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 18
+                  marginTop: 15
+                  marginLeft: 60
+            - Text: # payment
+                index: {payment_index}
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 18
+                  marginTop: -26
+                  marginLeft: 300
+            - Text: # phone number
+                index: {phone_num_index}
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 18
+                  marginTop: 15
+                  marginLeft: 60
+            - Text: # total
+                index: {totp_index}
+                style:
+                  fontFamily: Gurmukhi MN
+                  color: {tc}
+                  fontSize: 18
+                  marginTop: -26
+                  marginLeft: 300
+            - Button: #box
+                id: removeorder{ordernum}
+                style: # box
+                  width: 20
+                  height: 20
+                  alignItems: center
+                  backgroundColor: {bgdc}
+                  borderWidth: 1
+                  borderColor: {boc}
+                  marginLeft: 400
+                  marginTop: -6
+                on_touch:
+                  backgroundColor: rgb(255, 200, 0)
+                children: #minus sign
+                  - View:
+                      style:
+                        backgroundColor: {boc}
+                        width: 19
+                        height: 2
+                        marginTop: 9

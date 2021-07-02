@@ -1,0 +1,58 @@
+      - View: #items
+          style:
+            backgroundColor: {bgdc}
+            borderColor: {boc}
+            width: 305
+            height: 100
+            borderWidth: 1
+            marginTop: 20
+            marginLeft: 10
+          children:
+                - Text: # food name
+                    index: {fname_index}
+                    style:
+                      color: {tc}
+                      fontSize: 17
+                      marginTop: 15
+                      marginLeft: 120
+                - Image: #food pic
+                    source: {image}
+                    style:
+                      backgroundColor: {bgdc}
+                      borderColor: {boc}
+                      width: 70
+                      height: 70
+                      borderWidth: 1
+                      marginTop: -20
+                      marginLeft: 15
+                - Text: # item price
+                    index: {fprice_index}
+                    style:
+                      color: {tc}
+                      fontSize: 17
+                      marginTop: -30
+                      marginLeft: 120
+                - Button:
+                    id: add{k}{i}
+                    style: # box
+                      width: 20
+                      height: 20
+                      alignItems: center
+                      backgroundColor: {bgdc}
+                      borderWidth: 1
+                      borderColor: {boc}
+                      marginLeft: 270
+                    on_touch:
+                      backgroundColor: rgb(255, 200, 0)
+                    children: #plus sign
+                      - View:
+                          style:
+                            backgroundColor: {boc}
+                            width: 2
+                            height: 19
+                      - View:
+                          style:
+                            backgroundColor: {boc}
+                            width: 19
+                            height: 2
+                            marginTop: -11
